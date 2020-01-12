@@ -7,10 +7,10 @@
       "use": "@now/node"
     }
   ],
-  "redirects": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "dist/main.js"
+      "src": "/(.*)",
+      "dest": "dist/main.js"
     }
   ]
 }
