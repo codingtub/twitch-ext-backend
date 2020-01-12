@@ -6,5 +6,10 @@
       "src": "dist/main.js",
       "use": "@now/node"
     }
-  ]
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "dist/main.js"
+    },
 }
