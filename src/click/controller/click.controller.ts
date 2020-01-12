@@ -7,6 +7,11 @@ export class ClickController {
   constructor(private readonly clickService: ClickService) {
   }
 
+  @Get('/')
+  public getHello(): string {
+    return 'Hello!';
+  }
+
   @Post('/')
   public getClickEvent(@Body() clickData: ClickData): ClickData {
 
