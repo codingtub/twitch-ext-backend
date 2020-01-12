@@ -21,7 +21,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "predeploy": "npm run build",
     "deploy": "now --prod",
-    "postinstall": "npm run start:prod"
   },
   "engines": {
     "node": "12.x"
