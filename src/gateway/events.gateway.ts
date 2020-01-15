@@ -10,7 +10,7 @@ import { ClickData, ClickService } from '../click/service/click.service';
 import { OnModuleDestroy } from '@nestjs/common';
 import { Subscription } from 'rxjs';
 
-@WebSocketGateway(8081)
+@WebSocketGateway()
 export class EventsGateway implements OnGatewayConnection, OnGatewayInit, OnGatewayDisconnect, OnModuleDestroy {
 
   private clickSubscription: Subscription;
