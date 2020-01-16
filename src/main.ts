@@ -14,7 +14,10 @@ async function bootstrap() {
       'OPTIONS',
     ],
   });
-  await app.listen(8080);
+  const port = process.env.PORT || 8080;
+  await app.listen(port).then(() => {
+    console.log('Listening on port ' + process.env.PORT || 8080);
+  });
 }
 
 bootstrap();
