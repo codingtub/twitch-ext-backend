@@ -1,4 +1,4 @@
-[![ezgif.com-gif-makerd763d596e366789a.gif](https://s1.gifyu.com/images/ezgif.com-gif-makerd763d596e366789a.gif)](https://gifyu.com/image/6QEX)
+![](https://s1.gifyu.com/images/ezgif.com-gif-makerd763d596e366789a.gif)
 
 ## Description
 
